@@ -10,7 +10,7 @@ class Poll:
     async def poll(self, ctx, polltimeinminutes: int, headline:str="Poll", *, description:str="Click"):
         """simple poll command"""
         # example: p.poll 10
-        # headline, description, opt1, opt2, opt3 aren't required arguments
+        # headline and description
         """
         A poll command for a Discord bot.
 
